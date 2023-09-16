@@ -18,11 +18,15 @@ ul {
     border-style: solid;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 150px;
     background-color: black;
     clear: left;
   }
-  
+
+  li{
+    text-align: center;
+  }
+
   li a {
     display: block;
     color: white;
@@ -35,7 +39,7 @@ ul {
     background-color: white;
     color: black;
   }
-  
+
 #foot{
     text-align: center;
     font-variant: small-caps;
