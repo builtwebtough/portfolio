@@ -6,9 +6,7 @@ html{
 h1{ 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-div{
-    position: relative;
-}
+
 body{ 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -18,9 +16,17 @@ ul {
     border-style: solid;
     margin: 0;
     padding: 0;
-    width: 150px;
+    width: 25%;
     background-color: black;
-    clear: left;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+  div{
+    margin-left:25%;
+    padding:1px 16px;
+    height:300px;
   }
 
   li{
