@@ -1,4 +1,7 @@
 /* this style sheet will be updated soon it is for the formatting of the main index page. */
 html{ background-color: lightgray;}
+h1{ font-family: Georgia, 'Times New Roman', Times, serif;}
+body{ font-family: Verdana, Geneva, Tahoma, sans-serif;}
 ul{ list-style: none;}
-#foot{text-align: center;}
+#foot{text-align: center;
+font-variant: small-caps;}
