@@ -1,7 +1,41 @@
 /* this style sheet will be updated soon it is for the formatting of the main index page. */
-html{ background-color: lightgray;}
-h1{ font-family: Georgia, 'Times New Roman', Times, serif;}
-body{ font-family: Verdana, Geneva, Tahoma, sans-serif;}
-ul{ list-style: none;}
-#foot{text-align: center;
-font-variant: small-caps;}
+html{ 
+    background-color: lightgray;
+}
+
+h1{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    position: relative;
+}
+body{ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    clear: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: white;
+    color: black;
+  }
+#foot{
+    text-align: center;
+    font-variant: small-caps;
+}
