@@ -5,6 +5,7 @@ html{
 
 h1{ 
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 3px 5px 6px rgb(151, 164, 176);
 }
 
 body{ 
@@ -15,10 +16,13 @@ body{
 div{
     display: inline;
     border-style: solid;
+    border-radius: 10px;
+    color: gainsboro;
     margin-left:25%;
     padding-left: 8px;
     padding-right: 8px;
     background-color: aliceblue;
+    background-image: linear-gradient(rgb(21, 46, 134), aliceblue);
     height: 500px;
     max-width: fit-content;
     position: absolute;
@@ -28,10 +32,11 @@ div{
 ul {
     list-style-type: none;
     border-style: solid;
+    border-radius: 10px;
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.658);
     height: 500px;
   }
 
@@ -41,6 +46,7 @@ ul {
 
   li a {
     display: block;
+    border-radius: 10px;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
@@ -49,6 +55,7 @@ ul {
   /* Change the link color on hover */
   li a:hover {
     background-color: white;
+    box-shadow: -5px -5px 10px black inset, 5px 5px 10px black inset;
     color: black;
   }
 
