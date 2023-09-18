@@ -52,6 +52,9 @@ ul {
     text-decoration: none;
   }
   
+  a.active{
+    color: red;
+  }
   /* Change the link color on hover */
   li a:hover {
     background-color: white;
