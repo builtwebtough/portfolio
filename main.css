@@ -17,18 +17,24 @@ div{
     display: inline;
     border-style: solid;
     border-radius: 10px;
-    color: gainsboro;
+    color: rgb(11, 11, 11);
     margin-left:25%;
     padding-left: 8px;
     padding-right: 8px;
     background-color: aliceblue;
-    background-image: linear-gradient(rgb(21, 46, 134), aliceblue);
+   /* background-image: linear-gradient(rgb(21, 46, 134), aliceblue);*/
     height: 500px;
     max-width: fit-content;
     position: absolute;
     overflow-y: auto;
-  }
+    animation-name: example;
+  animation-duration: 4s;
 
+  }
+  @keyframes example {
+    from {background-color: black;}
+    to {background-color:rgba(255, 99, 71, 0);}
+  }
 ul {
     list-style-type: none;
     border-style: solid;
