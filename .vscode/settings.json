@@ -1,0 +1,6 @@
+{
+    "timetracker.autostart.askAboutAutoStart": true,
+    "timetracker.autostart.autoCreateTimeTrackingFile": true,
+    "timetracker.autostart.autoStartTimeTracking": true,
+    "timetracker.pauseAfter": 30
+}
