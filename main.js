@@ -1,3 +1,20 @@
-/* testing the time tracker to see if it pauses after 30 seconds */
-/* and it works and it automatically picks back up when i start again */
-/* need to be carefull about hitting the start button on this thing */
+/************************************************************** *
+ *             JavaScript for Builtwebtough.com                 *
+ *                                                              *
+ *              Creating dynamic web pages.                     *
+ *                                                              *
+ ************************************************************** */
+
+/* 
+   init- set the strict mode, 
+   add onload events, 
+   add any meta tags needed. etc.
+*/
+
+//event listeners
+
+
+//dynamic content
+
+//dynamic input
+
