@@ -35,12 +35,9 @@ function loadHome(xhttp){
       xhttp.responseText;
   }
 
-  //parse timetracker data and display it 
-  function loadTimeTracker(xhttp){
-    //we need to parse the xhttp.response text first then 
-    //add it to a table and decorate the table with w3.css
-    const txt = xhttp.responseText;
-    const obj = JSON.parse(txt);
+  function loadAccount(xhttp){
     document.getElementById("stuff").innerHTML =
-    "total time on construction of this website = " + obj.total / 60 / 60 + " hours." + "array --> " + obj[0];
-  }
+    xhttp.responseText;
+}
+
+  
