@@ -14,7 +14,7 @@
 //XMLHttpRequest to get text files to fill content
 function loadDoc(url, cFunction) {
   const xhttp = new XMLHttpRequest();
-  xhttp.onload = function() {cFunction(xhttp);}
+  xhttp.onload = function() {cFunction(this);}
   xhttp.open("GET", url);
   xhttp.send();
 }
