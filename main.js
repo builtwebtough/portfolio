@@ -37,6 +37,8 @@ function loadHome(xhttp){
 
   //parse timetracker data and display it 
   function loadTimeTracker(xhttp){
+    //we need to parse the xhttp.response text first then 
+    //add it to a table and decorate the table with w3.css
     document.getElementById("stuff").innerHTML =
     xhttp.responseText;
   }
