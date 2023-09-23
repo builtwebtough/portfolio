@@ -40,4 +40,11 @@ function loadHome(xhttp){
     xhttp.responseText;
 }
 
+function loadStats(xhttp){
+  //parse the json file to get the data
+  //then display it on the page in the <div> tag
+  const myJSON = xhttp.responseText;
+}
+
+
   
