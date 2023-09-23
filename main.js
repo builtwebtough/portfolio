@@ -34,3 +34,9 @@ function loadHome(xhttp){
       document.getElementById("stuff").innerHTML =
       xhttp.responseText;
   }
+
+  //parse timetracker data and display it 
+  function loadTimeTracker(xhttp){
+    document.getElementById("stuff").innerHTML =
+    xhttp.responseText;
+  }
