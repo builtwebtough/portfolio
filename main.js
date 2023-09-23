@@ -22,15 +22,15 @@ function loadDoc(url, cFunction) {
 //dynamic content
 function loadHome(xhttp){
       document.getElementById("stuff").innerHTML =
-      this.responseText;
+      xhttp.responseText;
   }
 
   function loadAbout(xhttp){
       document.getElementById("stuff").innerHTML =
-      this.responseText;
+      xhttp.responseText;
   }
 
   function loadServices(xhttp){
       document.getElementById("stuff").innerHTML =
-      this.responseText;
+      xhttp.responseText;
   }
