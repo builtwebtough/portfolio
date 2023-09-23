@@ -39,6 +39,8 @@ function loadHome(xhttp){
   function loadTimeTracker(xhttp){
     //we need to parse the xhttp.response text first then 
     //add it to a table and decorate the table with w3.css
+    const txt = xhttp.responseText;
+    const obj = JSON.parse(txt);
     document.getElementById("stuff").innerHTML =
-    xhttp.responseText;
+    obj;
   }
