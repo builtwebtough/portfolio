@@ -15,6 +15,10 @@
 
 
 //dynamic content
+getText("content.txt");
 
-//dynamic input
-
+async function getText(file) {
+  let myObject = await fetch(file);
+  let myText = await myObject.text();
+  document.getElementById("home").innerHTML = myText;
+}
