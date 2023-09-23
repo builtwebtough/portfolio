@@ -42,5 +42,5 @@ function loadHome(xhttp){
     const txt = xhttp.responseText;
     const obj = JSON.parse(txt);
     document.getElementById("stuff").innerHTML =
-    obj;
+    obj.total + ", " + obj.sessions + ", " + obj.duration;
   }
