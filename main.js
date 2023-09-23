@@ -15,10 +15,12 @@
 
 
 //dynamic content
-getText("content.txt");
-
-async function getText(file) {
-  let myObject = await fetch(file);
-  let myText = await myObject.text();
-  document.getElementById("home").innerHTML = myText;
-}
+function loadDoc() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      document.getElementById("home").innerHTML =
+      this.responseText;
+    }
+    xhttp.open("GET", "content.txt");
+    xhttp.send();
+  }
