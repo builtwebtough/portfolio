@@ -1,7 +1,0 @@
-{
-    "timetracker.autostart.askAboutAutoStart": true,
-    "timetracker.autostart.autoCreateTimeTrackingFile": true,
-    "timetracker.autostart.autoStartTimeTracking": false,
-    "timetracker.pauseAfter": 30,
-    "timetracker.dotTimeTrackerIndent": ""
-}
