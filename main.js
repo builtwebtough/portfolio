@@ -21,6 +21,6 @@ function loadDoc() {
       document.getElementById("home").innerHTML =
       this.responseText;
     }
-    xhttp.open("GET", "content.txt");
+    xhttp.open("GET", "content.bwt");
     xhttp.send();
   }
