@@ -15,12 +15,32 @@
 
 
 //dynamic content
-function loadDoc() {
+function loadHome(){
     const xhttp = new XMLHttpRequest();
     xhttp.onload = function() {
-      document.getElementById("home").innerHTML =
+      document.getElementById("stuff").innerHTML =
       this.responseText;
     }
-    xhttp.open("GET", "content.bwt");
+    xhttp.open("GET", "home.bwt");
+    xhttp.send();
+  }
+
+  function loadAbout(){
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      document.getElementById("stuff").innerHTML =
+      this.responseText;
+    }
+    xhttp.open("GET", "about.bwt");
+    xhttp.send();
+  }
+
+  function loadServices(){
+    const xhttp = new XMLHttpRequest();
+    xhttp.onload = function() {
+      document.getElementById("stuff").innerHTML =
+      this.responseText;
+    }
+    xhttp.open("GET", "services.bwt");
     xhttp.send();
   }
