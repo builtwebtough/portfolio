@@ -11,36 +11,26 @@
    add any meta tags needed. etc.
 */
 
-//event listeners
-
+//XMLHttpRequest to get text files to fill content
+function loadDoc(url, cFunction) {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onload = function() {cFunction(this);}
+  xhttp.open("GET", url);
+  xhttp.send();
+}
 
 //dynamic content
-function loadHome(){
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
+function loadHome(xhttp){
       document.getElementById("stuff").innerHTML =
       this.responseText;
-    }
-    xhttp.open("GET", "home.bwt");
-    xhttp.send();
   }
 
-  function loadAbout(){
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
+  function loadAbout(xhttp){
       document.getElementById("stuff").innerHTML =
       this.responseText;
-    }
-    xhttp.open("GET", "about.bwt");
-    xhttp.send();
   }
 
-  function loadServices(){
-    const xhttp = new XMLHttpRequest();
-    xhttp.onload = function() {
+  function loadServices(xhttp){
       document.getElementById("stuff").innerHTML =
       this.responseText;
-    }
-    xhttp.open("GET", "services.bwt");
-    xhttp.send();
   }
