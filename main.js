@@ -42,5 +42,5 @@ function loadHome(xhttp){
     const txt = xhttp.responseText;
     const obj = JSON.parse(txt);
     document.getElementById("stuff").innerHTML =
-    obj.total + ", " + obj.sessions.begin + ", " + obj.sesions.duration;
+    "total time on construction of this website = " + obj.total / 60 / 60;
   }
