@@ -1,5 +1,5 @@
 <h2>Login</h2>
-<form action="user.txt" method="get">
+<form>
 <lable for="uName">User Name:</lable> 
 <input type="text" id="uName" name="uName"><br><br>
 <label for="pwd">Password :</lable>
