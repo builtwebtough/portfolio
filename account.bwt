@@ -2,7 +2,7 @@
 <form>
 <lable for="uName">User Name:</lable> 
 <input type="text" id="uName" name="uName"><br><br>
-<label for="pwd">Password :</lable>
+<label for="pwd">Password:</lable>
 <input Type="password" id="pwd" name="pwd"><br><br>
 <input type="submit" value="Submit"><br><br>
 </form>
