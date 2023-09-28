@@ -49,7 +49,3 @@ function loadContact(xhttp){
   document.getElementById("stuff").innerHTML =
   xhttp.responseText;
 }
-
-
-
-  
