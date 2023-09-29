@@ -10,6 +10,9 @@
 </head>
 
 <body onload="loadDoc('home.bwt', loadHome)" >
+<?php
+
+?>
 <h1 class="w3-text-teal" style="text-shadow:1px 2px 0 black; text-align: center; font-weight: bold;">Welcome to Built Web Tough.</h1>
 
   <hr> 
