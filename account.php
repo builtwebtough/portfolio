@@ -1,5 +1,5 @@
 <h2>Login</h2>
-<form>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <lable for="uName">User Name:</lable><br> 
 <input type="text" id="uName" name="uName"><br><br>
 <label for="pwd">Password:</lable><br>

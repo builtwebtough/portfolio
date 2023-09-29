@@ -1,6 +1,6 @@
 
 <h2>Contact Form</h2>
-<form method="post" action="index.php">
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <label>First Name</label><br>
     <input type="text" required><br><br>
     <label>Last Name</label><br>
