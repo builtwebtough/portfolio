@@ -1,4 +1,6 @@
+<?php
 
+?>
 <h2>Contact Form</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <label>First Name</label><br>

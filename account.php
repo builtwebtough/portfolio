@@ -1,3 +1,7 @@
+<?php
+//php code goes here to process this form
+?>
+
 <h2>Login</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <lable for="uName">User Name:</lable><br> 
