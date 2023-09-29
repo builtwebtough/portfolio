@@ -22,7 +22,7 @@
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('about.bwt', loadAbout)">About</a>
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('services.bwt', loadServices)">Services</a>
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('projects.bwt', loadProjects)">Projects</a>
-    <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('contact.bwt', loadContact)">Contact</a>
+    <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('contact.php', loadContact)">Contact</a>
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('account.bwt', loadAccount)">Account</a>
   </div>
 

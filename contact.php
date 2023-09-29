@@ -1,6 +1,3 @@
-<?php
-//php code goes here to handle the form
-?>
 
 <h2>Contact Form</h2>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
