@@ -8,12 +8,13 @@
   <title>Built-Web-Tough</title>
   <meta name="google-site-verification" content="CI88aEswT6i0PlSHbVe2aOWyu5ggXJzZpokCvSa-htk" />
 </head>
+<!--Load the home page text file into the content div when the main page loads-->
+<body onload="loadDoc('home.bwt', loadHome)">
 
-<body onload="loadDoc('home.bwt', loadHome)" >
 <h1 class="w3-text-teal" style="text-shadow:1px 2px 0 black; text-align: center; font-weight: bold;">Welcome to Built Web Tough.</h1>
 
   <hr> 
-
+<!-- this is the main menue div-->
   <div class="w3-bar w3-border w3-light-grey">
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('home.bwt', loadHome)">Home</a>
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('about.bwt', loadAbout)">About</a>
@@ -22,12 +23,13 @@
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('contact.bwt', loadContact)">Contact</a>
     <a  class="w3-bar-item button w3-hover-teal" onclick="loadDoc('account.bwt', loadAccount)">Account</a>
   </div>
-
+<!-- This is the main content div when menu item is selected it loads the corresponding text file into this div -->
   <div id="stuff" class="w3-container w3-card-4 w3-teal" style="width:100%; display: block">
   In order to view this website please enable javascript.
   </div>
 
 </body>
+<!-- footer holds the copy right and will eventually house the site map -->
 <footer style="text-align: center;"><hr><p id="foot">&#169;All Rights Reserved.<br>&bigstar; Built-Web-Tough &bigstar;</p></footer>
 <script src="main.js"></script>
 <script src="w3.js"></script>
